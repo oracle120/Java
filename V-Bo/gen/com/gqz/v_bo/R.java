@@ -10,6 +10,9 @@ package com.gqz.v_bo;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int white=0x7f050000;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -18,29 +21,102 @@ public final class R {
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int logo_bg=0x7f020001;
-        public static final int main_bg=0x7f020002;
+        public static final int account_selete_bg=0x7f020000;
+        public static final int add_account_d=0x7f020001;
+        public static final int add_account_n=0x7f020002;
+        public static final int add_account_p=0x7f020003;
+        public static final int at_icon=0x7f020004;
+        public static final int auth_begin_d=0x7f020005;
+        public static final int bar=0x7f020006;
+        public static final int bg_dot=0x7f020007;
+        public static final int btn_begin_n=0x7f020008;
+        public static final int btn_begin_p=0x7f020009;
+        public static final int btn_gb_n=0x7f02000a;
+        public static final int btn_gb_p=0x7f02000b;
+        public static final int comment_icon=0x7f02000c;
+        public static final int detail_comment_bt=0x7f02000d;
+        public static final int detail_comment_bt_sel=0x7f02000e;
+        public static final int detail_redirect_bt=0x7f02000f;
+        public static final int detail_redirect_bt_sel=0x7f020010;
+        public static final int dialog_bg=0x7f020011;
+        public static final int head_bg=0x7f020012;
+        public static final int home_icon=0x7f020013;
+        public static final int ic_launcher=0x7f020014;
+        public static final int icon=0x7f020015;
+        public static final int icon_find=0x7f020016;
+        public static final int info=0x7f020017;
+        public static final int input=0x7f020018;
+        public static final int login_d=0x7f020019;
+        public static final int logo_bg=0x7f02001a;
+        public static final int main_bg=0x7f02001b;
+        public static final int main_btn_bg=0x7f02001c;
+        public static final int more_icon=0x7f02001d;
+        public static final int msg_icon=0x7f02001e;
+        public static final int pic_bg=0x7f02001f;
+        public static final int popup=0x7f020020;
+        public static final int portrait_normal=0x7f020021;
+        public static final int portrait_round=0x7f020022;
+        public static final int preview_pic_loading=0x7f020023;
+        public static final int progress=0x7f020024;
+        public static final int redirect_icon=0x7f020025;
+        public static final int title_back_normal=0x7f020026;
+        public static final int title_back_selected=0x7f020027;
+        public static final int title_home_normal=0x7f020028;
+        public static final int title_home_selected=0x7f020029;
+        public static final int titlebar_lightgray_bg=0x7f02002a;
+        public static final int toolbar_bg_left_nor=0x7f02002b;
+        public static final int toolbar_bg_left_sel=0x7f02002c;
+        public static final int toolbar_bg_middle_nor=0x7f02002d;
+        public static final int toolbar_bg_middle_sel=0x7f02002e;
+        public static final int toolbar_bg_right_nor=0x7f02002f;
+        public static final int toolbar_bg_right_sel=0x7f020030;
+        public static final int toolbar_comment_icon=0x7f020031;
+        public static final int toolbar_fav_icon=0x7f020032;
+        public static final int toolbar_forward_icon=0x7f020033;
+        public static final int toolbar_more_icon=0x7f020034;
+        public static final int toolbar_refresh_icon=0x7f020035;
+        public static final int triangle=0x7f020036;
+        public static final int user_head=0x7f020037;
+        public static final int user_selecte_dlg_bg=0x7f020038;
+        public static final int user_selecte_n=0x7f020039;
+        public static final int user_selecte_p=0x7f02003a;
+        public static final int usericon=0x7f02003b;
+        public static final int userinfo_title_bg=0x7f02003c;
+        public static final int v=0x7f02003d;
+        public static final int wb_icon_refresh=0x7f02003e;
+        public static final int wb_icon_write_n=0x7f02003f;
+        public static final int wb_icon_write_p=0x7f020040;
     }
     public static final class id {
-        public static final int action_settings=0x7f080001;
-        public static final int img_logo=0x7f080000;
+        public static final int action_settings=0x7f090006;
+        public static final int btm_add_account=0x7f090000;
+        public static final int btn_auth_begin=0x7f090005;
+        public static final int btn_login=0x7f090003;
+        public static final int img_logo=0x7f090004;
+        public static final int img_user_head=0x7f090001;
+        public static final int spn_user_list=0x7f090002;
     }
     public static final class layout {
-        public static final int activity_logo=0x7f030000;
-        public static final int activity_main=0x7f030001;
+        public static final int activity_auth=0x7f030000;
+        public static final int activity_login=0x7f030001;
+        public static final int activity_logo=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int authorize_dialog=0x7f030004;
     }
     public static final class menu {
-        public static final int logo=0x7f070000;
+        public static final int logo=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050002;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050001;
+        public static final int action_settings=0x7f070002;
+        public static final int app_name=0x7f070000;
+        public static final int authTip=0x7f070004;
+        public static final int authTipMsg=0x7f070005;
+        public static final int hello_world=0x7f070001;
+        public static final int login=0x7f070003;
     }
     public static final class style {
         /** 
@@ -64,10 +140,14 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f040001;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f040002;
+        public static final int dialog=0x7f040000;
+        /**  name 是Style的名称，parent 继承那个父类样式 
+         */
+        public static final int theme_fullScreen=0x7f040003;
     }
 }

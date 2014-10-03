@@ -22,8 +22,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gqz.v_bo.ui.LoginActivity" >
+        <activity
+            android:name="com.gqz.v_bo.ui.LoginActivity"
+            android:theme="@style/theme_fullScreen" >
         </activity>
+        <activity
+            android:name="com.gqz.v_bo.ui.AuthActivity"
+            android:theme="@style/theme_fullScreen" >
+        </activity>
+
+        <service android:name="com.gqz.v_bo.logic.MainService" >
+        </service>
     </application>
 
 </manifest>

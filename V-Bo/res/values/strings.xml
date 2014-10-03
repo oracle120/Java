@@ -4,5 +4,7 @@
     <string name="app_name">V-Bo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+	<string name="login">登录</string>
+	<string name="authTip">授权提示</string>
+	<string name="authTipMsg">是否使用您的新浪微博帐号进行授权</string>
 </resources>
